@@ -212,20 +212,20 @@ a {
 
 .about__column {
   display: flex;
+  justify-content: center;
 }
 
-.about__logo-column {
+.about__logo {
   display: flex;
-  justify-content: center;
+  background-color: black;
+  border-radius: 100%;
   min-width: 240px;
   max-height: 240px;
   margin: 0 95px;
 }
 
-.about__logo {
+.about__logo-image {
   padding: 45px;
-  background-color: black;
-  border-radius: 100%;
 }
 
 .about__title {
